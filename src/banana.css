@@ -1,0 +1,143 @@
+
+
+
+@font-face {
+    font-family: 'CocoGothic';
+    src: local('CocoGothicLight'), url(./fonts/CocoGothic-Light_trial.ttf) format('truetype');
+    
+  }
+  
+  @font-face {
+    font-family: 'CocoGothicLight';
+      src: local('CocoGothicLight'), url(./fonts/CocoGothic-UltraLight_trial.ttf) format('truetype');
+  }
+  
+
+  
+
+  h3 { 
+    font-family: 'Mulish', sans-serif;
+    background: linear-gradient(-90deg, #5D3189 80%, #873189 100%);
+    -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+    font-size: 15px;
+    margin-top:35px;
+    font-weight: 700;
+  
+  }
+
+  h4 { 
+    font-family: CocoGothic;
+  font-size: 15px;
+  font-weight: lighter;
+
+  }
+
+
+  h2 { 
+    font-family: CocoGothic;
+  font-size: 30px;
+  font-weight: 100;
+  
+  }
+  
+  h2,h4,.portfolio { 
+    margin-top:15px;
+  }
+
+  .portfoliow { 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+  }
+
+  .banana-header { 
+   
+    font-family: CocoGothic;
+    font-size: 55px;
+    color: #E0E0E0;
+    padding-left:5vw;
+
+}
+
+.banana-divison { 
+  margin-top: 10%;
+  margin-left: 15%;
+}
+
+
+.banana-text { 
+    font-family: Great Vibes;
+    background: linear-gradient(-60deg, #100F10 0%, #E0E0E0 100%);
+   -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+    font-size: 85px;
+   
+}
+
+.banana-absolute { 
+    
+    position: absolute;
+    top:0;
+    margin-left: 5%;
+    z-index:1;
+   
+}
+
+.banana-image1 { 
+  margin-left:15%;
+  position: absolute;
+}
+
+.banana-image2 { 
+  margin-left:60%;
+  position: absolute;
+  
+}
+
+.banana-image3 { 
+  margin-left:105%;
+  position: absolute;
+  top:0;
+  margin-top:10%;
+  
+}
+
+.banana-text-image { 
+  margin-top: 410px;
+}
+
+.banana-text-image2 { 
+  margin-top: 285px;
+}
+
+.banana-text-image3 { 
+  margin-top: 285px;
+  width: 300%;
+}
+
+.button1 {
+  width: 350px;
+  height: 50px;
+  position:absolute;
+  margin-left:105vw;
+  margin-top:60vh;
+  font-family: CocoGothic;
+  font-size: 18px;
+  font-weight: 300;
+  color:#E0E0E0;
+  text-align: center;
+  padding-top:11px;
+  border-radius: 25px;
+  box-shadow: -10px -10px 10px  #141314 ,
+  10px 10px 10px  #0c0c0c ;
+  transition: box-shadow 2s ease-in-out;
+  cursor:pointer;
+} 
+
+
+.button1:hover { 
+  box-shadow: -10px -10px 10px  #141314 inset ,
+  10px 10px 10px  #0c0c0c inset;
+
+}
