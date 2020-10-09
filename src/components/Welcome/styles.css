@@ -1,0 +1,115 @@
+@media (max-width: 1500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .menu-nav {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.menu-nav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-header-logo {
+  margin-top: 25px;
+}
+
+.menu {
+  margin-top: 20%;
+  position: fixed;
+}
+
+.menu-nav-intext {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-right: 10px;
+  align-content: center;
+}
+
+.menu-nav-text {
+  font-family: CocoGothic;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.menu-nav-icon {
+  cursor: pointer;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.intro-text {
+  background: linear-gradient(-90deg, #100f10 20%, #e0e0e0 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-circles {
+  display: flex;
+}
+
+.mini-circles {
+  display: flex;
+  position: relative;
+}
+
+.orange-circle {
+  position: absolute;
+  right: 0;
+}
+
+.blue-circle {
+  position: absolute;
+  top: 65px;
+  right: -75px;
+}
+
+.red-circle {
+  position: absolute;
+  top: 150px;
+  right: -35px;
+}
+
+.button {
+  align-self: flex-end;
+  width: 250px;
+  height: 62px;
+  font-family: CocoGothic;
+  font-size: 20px;
+  font-weight: 300;
+  color: #e0e0e0;
+  text-align: center;
+  padding-top: 17px;
+  border-radius: 25px;
+  box-shadow: -10px -10px 10px #141314, 10px 10px 10px #0c0c0c;
+  transition: box-shadow 2s ease-in-out;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: -10px -10px 10px #141314 inset, 10px 10px 10px #0c0c0c inset;
+}

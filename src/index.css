@@ -1,6 +1,7 @@
 @font-face {
-  font-family: 'CocoGothic';
-  src: local('CocoGothic'), url(./fonts/CocoGothic-Light_trial.ttf) format('truetype');
+  font-family: "CocoGothic";
+  src: local("CocoGothic"),
+    url(./fonts/CocoGothic-Light_trial.ttf) format("truetype");
 }
 
 * {
@@ -8,129 +9,25 @@
   padding: 0;
   box-sizing: border-box;
   outline: 0;
-  
 }
 
 body {
-  background: #100F10;
-  color: #FFF;
+  background: #100f10;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
-}
-
-body, input, button {
-  font-size: 16px;
 }
 
 button {
   cursor: pointer;
 }
 
-span { 
+span {
   font-family: CocoGothic;
   font-size: 75px;
 }
 
-h4 { 
+h4 {
   font-family: CocoGothic;
   font-size: 20px;
   font-weight: 300;
-   
-}
-
-.Menu_Nav { 
-  height:100vh;  
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  
-}
-
-.header-logo{ 
-  margin-top:25px; 
-}
-
-.Intro-Text { 
-position: absolute;
-margin-left: 20vw;
- width:40%;
-  background: linear-gradient(-90deg, #100F10 20%, #E0E0E0 100%);
-  -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-
-}
-
-.menu { 
-  margin-top:20%;
-  position:fixed;
-  
-}
-
-.menu_nav_intext { 
-  margin-top:25px;
-  margin-bottom:25px;
-  padding-right:10px;
-  align-content: center;
-}
-
-.menu_nav_text { 
-  font-family: CocoGothic;
-  font-size: 15px;
-  font-weight: 300;
-}
-
-.menu_nav_icon {
-  cursor: pointer;
-  align-items: center;
-}
-
-.Home_floows { 
-  margin-left: 40vw;
-  
-}
-
-.orange_circle { 
-  position: absolute;
-  cursor:pointer;
-  
-}
-
-.blue_circle { 
-  position: absolute;
-  margin-top:65px;
-  margin-left:75px;
-  cursor:pointer;
-}
-
-.red_circle { 
-  position: absolute;
-  margin-top:150px;
-  margin-left:35px;
-  cursor:pointer;
-  
-}
-
-.button {
-  width: 250px;
-  height: 62px;
-  position:absolute;
-  margin-left:25vw;
-  margin-top:2vh;
-  font-family: CocoGothic;
-  font-size: 20px;
-  font-weight: 300;
-  color:#E0E0E0;
-  text-align: center;
-  padding-top:17px;
-  border-radius: 25px;
-  box-shadow: -10px -10px 10px  #141314 ,
-  10px 10px 10px  #0c0c0c ;
-  transition: box-shadow 2s ease-in-out;
-  cursor:pointer;
-} 
-
-.button:hover { 
-  box-shadow: -10px -10px 10px  #141314 inset ,
-  10px 10px 10px  #0c0c0c inset;
-
 }

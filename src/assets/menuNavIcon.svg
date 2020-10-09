@@ -1,0 +1,19 @@
+ <svg
+            width="129"
+            height="119"
+            viewBox="0 0 129 119"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              x="-0.5"
+              y="0.5"
+              width="129"
+              height="118"
+              fill="black"
+              stroke="#343434"
+            />
+            <path d="M42.5 50H85" stroke="white" />
+            <path d="M43 50V60L66.5 60L85 60" stroke="white" />
+            <path d="M43 70.5H63.5H85V60" stroke="white" />
+          </svg>
