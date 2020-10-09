@@ -85,18 +85,18 @@
 }
 
 .banana-image1 { 
-  margin-left:15%;
+  margin-left:10%;
   position: absolute;
 }
 
 .banana-image2 { 
-  margin-left:60%;
+  margin-left:45%;
   position: absolute;
   
 }
 
 .banana-image3 { 
-  margin-left:105%;
+  margin-left:80%;
   position: absolute;
   top:0;
   margin-top:10%;
@@ -117,17 +117,20 @@
 }
 
 .button1 {
+  display:flex;
+  align-items: center;
+  justify-content: center;
   width: 350px;
   height: 50px;
   position:absolute;
-  margin-left:105vw;
-  margin-top:60vh;
+  margin-left:80vw;
+  margin-top:50vh;
   font-family: CocoGothic;
   font-size: 18px;
   font-weight: 300;
   color:#E0E0E0;
   text-align: center;
-  padding-top:11px;
+
   border-radius: 25px;
   box-shadow: -10px -10px 10px  #141314 ,
   10px 10px 10px  #0c0c0c ;

@@ -1,0 +1,85 @@
+.morango-container { 
+    background-color: azure;
+}
+.morango { 
+    height: 100vh;
+    width: 30vw;
+    background-color: #100F10;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.morango-contato { 
+    font-family: Great Vibes;
+    background: linear-gradient(-60deg, #100F10 0%, #E0E0E0 100%);
+   -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+    font-size: 85px;
+    margin-top: 15vh;
+}
+
+.morango-circle { 
+
+width: 250px;
+height: 250px;
+border-radius: 1255px;
+background-color: #100F10;
+margin-top: 10vh;
+box-shadow: -10px -10px 10px  #141314 ,
+  10px 10px 10px  #0c0c0c ;
+transition: box-shadow 1s ease-in-out;
+-webkit-transition: -webkit-transform .8s ease-in-out;
+transition: transform .8s ease-in-out;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+cursor: pointer;
+
+}
+
+
+.morango-circle:hover { 
+
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+
+}
+
+.morango-email { 
+    font-family: Montserrat;
+    font-size:20px;
+    font-weight: 300;
+    margin-top: 10vh;   
+    background: linear-gradient(to right, rgba(255,255,255,0) 50%, rgba(135, 49, 137,1.0) 50%);
+  background-size: 200%;
+  background-position: 0 0;
+  display: inline;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+.morango-email:hover {
+   
+    background-position: -100% 0;
+}
+
+.morango-line { 
+    margin-top:10%;
+}
+
+.social-icon { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+    width: 200px;
+    cursor:pointer;
+
+}
+
+.social-icons { 
+ padding: 20, 20;   
+}

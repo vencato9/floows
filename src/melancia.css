@@ -1,85 +1,57 @@
-h3 { 
-    font-family: CocoGothic;
-    font-size: 50px;
-    font-weight: 300;
-    color: #eeeeee;
-}
+.melancia-divison { 
 
-li {
-    list-style-type: none;
-    font-family: CocoGothic;
-    color: #BDBDBD;
-    font-size: 25px;
-    font-weight: 300;
-    margin-top: 5vh;
-  }
-
-.vetor-melao-2 { 
-
-margin-left: 10vw;
-
-}
-
-.vetor-melao-1 { 
-
-   position: absolute;
-   margin-left:-2vw;
-   margin-top: 1vh;
-    
-    }
-
-.melao-divison { 
    display: flex;
    flex-direction: column;
    align-items: center;
    margin-top: 10vh;
-  
 }
 
-.melao-text { 
+.melancia-header { 
+    background: linear-gradient(-45deg, #312e31 0%, #E0E0E0 100%);
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 65px;
+}
+
+.melancia-text { 
+
     background: linear-gradient(-45deg, #312e31 0%, #E0E0E0 100%);
     -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       font-size: 25px;
 }
 
-.melao-header { 
-    background: linear-gradient(-45deg, #312e31 0%, #E0E0E0 100%);
-    -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      font-size: 65px;
-      
-}
-
-
-.melao-body { 
+.melancia-body { 
     display: flex;
     flex-direction: row;
    align-items: center;
-   margin-top:15vh;
+   margin-top: 5vh;
+
 }
 
-.melao-tecnologia { 
-    
-    margin-left:5vw;
-}
+.vetor-melancia { 
 
-.melao-experiencia { 
-
-    margin-left: 10vw;
+    margin-left: 15vw;
+    margin-top: 15vh;
 }
 
 
+.vetor-melancia-1 { 
+
+ position: absolute;
+ bottom:0;
+ margin-left: 40vw;
+}
 
 .button1 {
     display:flex;
+    margin-top: 15vh;
     align-items: center;
     justify-content: center;
     width: 350px;
     height: 50px;
     position:absolute;
-    margin-left:85vw;
-    
+    margin-left:85vw;  
     font-family: CocoGothic;
     font-size: 18px;
     font-weight: 300;
@@ -93,10 +65,23 @@ margin-left: 10vw;
     transform: rotate(270deg); 
     
   } 
-  
-  
+   
   .button1:hover { 
     box-shadow: -10px -10px 10px  #141314 inset ,
     10px 10px 10px  #0c0c0c inset;
   
+  }
+
+  span { 
+    font-family: CocoGothic;
+    font-size: 30px;
+    font-weight: 100;
+    color: #eeeeee;
+    
+  }
+
+  .melancia-home {
+line-height: 200%;
+margin-left: 5vw;
+margin-top: 10vh;
   }

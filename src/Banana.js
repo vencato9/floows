@@ -64,11 +64,12 @@ function Banana() {
     
     <div className="App">   
         
-        < svg className="banana-absolute" width="896" height="467" viewBox="0 0 896 467" fill="none" xmlns="http://www.w3.org/2000/svg">
-          
-          <path d="M852.5 259C1179.92 -194.617 -519.462 48.2088 165.441 164.914C1021.57 310.797 142.198 543.151 837.284 441.5" stroke="#EEEEEE"/>
-         
-          </svg>
+      
+
+          <svg  className="banana-absolute" width="940" height="509" viewBox="0 0 940 509" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M185.936 209.889C-498.967 93.183 938.994 -244.026 938.994 308.974C938.994 420.575 917 478.822 857.778 486.474C153.494 577.474 1042.06 355.771 185.936 209.889Z" stroke="#EEEEEE"/>
+</svg>
+
 
             <div className="banana-divison"> 
                   <span className="banana-header"> Nossos </span>
